@@ -12,6 +12,6 @@ En los eventos de CTF, o captura la bandera por sus siglas en inglés, el objeti
 
 ## ¿Qué sigue?
 
-Lo siguiente más importante en un CTF es leer las reglas, es por eso que debes de ir al reto de `reglas` y completarlo.
+Lo siguiente más importante en un CTF es leer las reglas, es por eso que debes de ir al reto de `Reglas` y completarlo.
 Una vez completado ese reto, estarás listo para aprender y jugar con el resto de los retos.
 Por cierto, ten tu primera bandera. ¡Ánimo! 🚀 **`mblue{y44y_m1_pr1mer4_b4nder4}`**.
