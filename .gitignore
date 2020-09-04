@@ -19,3 +19,5 @@ Cargo.lock
 elm-stuff
 # elm-repl generated files
 repl-temp-*
+
+data/
