@@ -7,8 +7,8 @@ interface ISnake {
 
 import { searchSnakeById } from "./database.ts"
 
-const getSnake = async ({ params, response }: { params: { id: string }; response: any }) => {
-    const snake: ISnake | undefined = await searchSnakeById(+params.id)
+const getSnake = async ({ request, response }: { request: any; response: any }) => {
+    const snake: ISnake | undefined = await searchSnakeById(request.url.searchParams.get("id"))
     if (snake) {
         response.status = 200
         response.body = snake
@@ -18,4 +18,8 @@ const getSnake = async ({ params, response }: { params: { id: string }; response
     }
 }
 
-export { getSnake, ISnake };
+const healthcheck = ({ request, response }: { request: any; response: any }) => {
+    response.body = { "message": "todo al 100" }
+}
+
+export { getSnake, ISnake, healthcheck };
