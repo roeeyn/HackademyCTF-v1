@@ -17,6 +17,5 @@ def decode_base64(cadena):
 
 
 if __name__ == "__main__":
-    # TODO comprobar que la bandera original no se puede obtener
     # bandera cifrada con super_cifrar
     bandera_cifrada = "BwjSDwv7zJnSmwmXzdrKmZvFCdbYx3r1xZfUzZnUmtnYmwfFmw52m3jZncf9"

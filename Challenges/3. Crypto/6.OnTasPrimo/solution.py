@@ -17,8 +17,8 @@ def leer_llave(filename, default_key=None):
         return None
 
 
-def cifrar(data, encode_output=False, decode_input=False):
-    llave = leer_llave("key.txt")
+def cifrar(data, encode_output=False, decode_input=False, default_key=None):
+    llave = default_key if default_key is not None else leer_llave("key.txt")
     if llave is None:
         return ""
 
