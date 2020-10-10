@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./App.css";
 import Snake from "./components/Snake";
 
-const host = process.env.BACKEND_HOST || "http://localhost:5000";
+const host = process.env.REACT_APP_BACKEND_HOST || "http://localhost:5000";
 
 function App() {
   const [snake, setSnake] = useState({ name: "" });
