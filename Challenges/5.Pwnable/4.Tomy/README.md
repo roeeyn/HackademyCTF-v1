@@ -4,5 +4,6 @@ Una de las innovaciones más grandes dentro de Manguito Blue ha sido la creació
 
 file your_file
 break main
+disassemble
 jump function
 info registers

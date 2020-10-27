@@ -1,6 +1,6 @@
 # Qlebras
 
-¿Cuáles es **esa qlebra**? Para eso tenemos un blog en el cual identificamos varios tipos de reptiles. ¿Será que puedas encontrar algo más allá de animales?
+¿Cuál es **esa qlebra**? Para eso tenemos un blog en el cual identificamos varios tipos de reptiles. ¿Será que puedas encontrar algo más allá de animales?
 
 # Pistas
 
@@ -39,3 +39,5 @@ alter table flags
 	add constraint flags_pk
 		primary key (id);
 ```
+
+mblue{3st3_3r4_d3_l0s_r3t0s_m4s_d1f1c1l3s.3chat3_un1_m1ll3r_p4r4_f3st3j4r}
